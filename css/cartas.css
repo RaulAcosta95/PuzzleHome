@@ -38,6 +38,7 @@
   float: left;
   height: 2vh;
 }
+
 .cartas .empresas .carta .info {
   padding-left: 5vh;
 }
@@ -85,6 +86,9 @@
   border: solid;
   border-width: 1px;
   border-color: rgb(225, 225, 225);
+}
+.carta .Icono img:hover {
+  background-color: rgb(86, 52, 210);
 }
 
 .carta .Extra {
