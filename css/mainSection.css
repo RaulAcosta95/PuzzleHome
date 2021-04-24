@@ -49,4 +49,8 @@ section .main .LogoBusqueda {
   -moz-border-radius: 200px 200px 200px 200px;
   -webkit-border-radius: 200px 200px 200px 200px;
   border: 0px solid #000000;
+
+  -webkit-box-shadow: 2px 8px 24px 3px rgba(240, 184, 17, 0.32);
+  -moz-box-shadow: 2px 8px 24px 3px rgba(240, 184, 17, 0.32);
+  box-shadow: 2px 8px 24px 3px rgba(240, 184, 17, 0.32);
 }
