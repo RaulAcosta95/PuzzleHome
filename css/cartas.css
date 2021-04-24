@@ -5,10 +5,77 @@
 .cartas .recently {
   font-size: 11px;
   color: rgb(135, 135, 135);
+  margin-bottom: 4vh;
+}
+.cartas .empresas {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 1em;
+}
+.cartas .empresas .carta {
+  background-color: rgb(255, 255, 255);
+  min-width: 37vh;
 }
 .logoCompañia img {
-  height: 25vh;
+  height: 17vh;
+  padding-top: 5vh;
+  padding-left: 10vh;
 }
 .info img {
+  float: left;
   height: 2vh;
+}
+.cartas .empresas .carta .info {
+  padding-left: 5vh;
+}
+.cartas .empresas .carta .info p {
+  font-size: 12px;
+  padding-bottom: 2vh;
+}
+.cartas .nombreCompania {
+  color: rgb(135, 135, 135);
+  padding-bottom: 0px;
+}
+.cartas .localcion {
+  /* background-color: aquamarine; */
+  margin: 0px;
+  font-size: 11px;
+  color: rgb(214, 214, 214);
+}
+.carta .Interactivo {
+  background-color: rgb(250, 250, 250);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.carta .infoDinero {
+  float: left;
+}
+.carta .dinero {
+  padding-left: 5vh;
+  padding-top: 1vh;
+  margin-bottom: 8px;
+  color: blue;
+  font-size: 20px;
+}
+.carta .hiringReward {
+  padding-left: 5vh;
+
+  font-size: 12px;
+  color: rgb(187, 187, 187);
+}
+.carta .Icono img {
+  margin-top: 4vh;
+  margin-left: 10vh;
+  padding: 2vh;
+  border-radius: 50%;
+  width: 3vh;
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(225, 225, 225);
+}
+
+.carta .Extra {
+  padding: 3vh;
+  text-align: center;
+  font-size: 10px;
 }
