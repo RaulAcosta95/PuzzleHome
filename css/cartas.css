@@ -1,3 +1,11 @@
+.cartas {
+  margin-left: 22vh;
+  font-family: "Helvetica";
+}
+.cartas .recently {
+  font-size: 11px;
+  color: rgb(135, 135, 135);
+}
 .logoCompañia img {
   height: 25vh;
 }
