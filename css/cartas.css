@@ -21,6 +21,14 @@
   padding-top: 5vh;
   padding-left: 10vh;
 }
+.carta hr {
+  width: 30vh;
+  border: 0 none #d6d6d6;
+  border-top: 1px solid #e8e8e8;
+  height: 1px;
+  display: block;
+  clear: both;
+}
 .info img {
   float: left;
   height: 2vh;
