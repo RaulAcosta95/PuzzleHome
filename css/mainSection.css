@@ -43,6 +43,22 @@ section .main button {
   background-color: rgb(246, 248, 250);
 }
 section .main .LogoBusqueda {
+  animation-duration: 15s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    height: 0vh;
+    width: 0vh;
+  }
+
+  to {
+    height: 7vh;
+    width: 7vh;
+  }
+}
+section .main .LogoBusqueda {
   height: 7vh;
   width: 7vh;
   border-radius: 200px 200px 200px 200px;
