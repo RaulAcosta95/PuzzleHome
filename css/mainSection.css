@@ -2,7 +2,11 @@ section .main .info {
   padding-top: 20vh;
   font-family: "Helvetica";
 }
-
+.main form input {
+  -webkit-box-shadow: 10px 10px 49px -4px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 10px 10px 49px -4px rgba(0, 0, 0, 0.22);
+  box-shadow: 10px 10px 49px -4px rgba(0, 0, 0, 0.22);
+}
 .info {
   padding-left: 20vh;
 }
