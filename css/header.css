@@ -1,11 +1,31 @@
-a {
+header a {
   text-decoration: none;
+  color: aliceblue;
+}
+header button {
+  border-radius: 110px 110px 110px 110px;
+  -moz-border-radius: 110px 110px 110px 110px;
+  -webkit-border-radius: 110px 110px 110px 110px;
+  text-decoration: none;
+  border: none;
+  font-size: 12px;
+  color: aliceblue;
+  padding: 0;
+  height: 10vh;
+  width: 30vh;
+}
+.botonLogIn {
+  background-color: rgb(86, 54, 210);
+}
+.botonSingUp {
+  background-color: rgb(94, 66, 213);
 }
 header {
   font-family: "Helvetica";
   font-weight: bold;
   font-size: 11px;
+  margin-top: 10vh;
 }
 header img {
-  margin-left: 10vh;
+  margin-left: 20vh;
 }
